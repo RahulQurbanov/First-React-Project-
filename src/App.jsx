@@ -1,17 +1,14 @@
 import { useState } from 'react';
 
 function App() {
-  // state to control visibility of Login and SignUp sections
+  
   const [isLoginVisible, setIsLoginVisible] = useState(true);
-
   function ShowSignUp() {
     setIsLoginVisible(false);
   }
-
   function ShowLogin() {
     setIsLoginVisible(true);
   }
-
   return (
     <>
       <section className={`bg-gradient-to-r from-blue-400 to-purple-300 h-screen flex items-center justify-center ${isLoginVisible ? '' : 'hidden'}`} id="Login">
@@ -39,8 +36,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/*------------------------ Signup ------------------- */}
 
       <section className={`bg-gradient-to-r from-blue-400 to-purple-300 h-screen items-center justify-center flex ${isLoginVisible ? 'hidden' : ''}`} id="SignUp">
         <div className="bg-white w-[420px] p-[25px] rounded-xl h-[590px]">
