@@ -57,7 +57,7 @@ function App() {
               <button className="w-[300px] rounded-xl bg-gradient-to-r from-blue-700 to-blue-800 p-[10px] text-xl text-white">Signup</button>
               <div className="flex gap-[5px] font-bold text-lg ">
                 <p>Create an account:</p>
-                <button className="text-blue-400" onClick={ShowLogin}>Login</button>
+                <button className="text-blue-400 text-[25px]" onClick={ShowLogin}>Login</button>
               </div>
             </footer>
           </div>
