@@ -55,10 +55,10 @@ function App() {
               <input type="password" placeholder="Confirm Password" className="rounded-xl w-[300px] p-[10px] border border-gray-400" />
             </main>
             <footer className="flex flex-col gap-[25px] items-center">
-              <button className="w-[300px] rounded-xl bg-gradient-to-r from-blue-700 to-blue-800 p-[10px] text-xl text-white">Signup</button>
+              <button className="w-[300px] rounded-xl bg-gradient-to-r from-blue-700 to-blue-800 p-[12px] text-xl text-white">Signup</button>
               <div className="flex gap-[5px] font-bold text-lg ">
                 <p>Create an account:</p>
-                <button className="text-blue-400 text-[25px]" onClick={ShowLogin}>Login</button>
+                <button className="text-blue-400 text-[26px]" onClick={ShowLogin}>Login</button>
               </div>
             </footer>
           </div>
