@@ -8,7 +8,8 @@ function App() {
   }
   function ShowLogin() {
     setIsLoginVisible(true);
-  }
+  };
+  
   return (
     <>
       <section className={`bg-gradient-to-r from-blue-400 to-purple-300 h-screen flex items-center justify-center ${isLoginVisible ? '' : 'hidden'}`} id="Login">
@@ -66,5 +67,4 @@ function App() {
     </>
   );
 }
-
 export default App;
